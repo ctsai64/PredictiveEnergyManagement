@@ -1,2 +1,7 @@
 # PredictiveEnergyManagement
 Predictive Energy Management with Renewable Sources
+
+Originally created and run in Kaggle
+
+Abstract:
+The rise in renewable energy sources along with use of smart grid technologies in electricity management present an opportunity to optimize energy management to be increasingly efficient and economical, balancing usage between available sources. This project presents a program to predict optimal sourcing between generated renewable energy, stored energy, and grid energy accounting for conditions impacting energy generation, patterns of energy consumption, and fluctuating grid energy pricing. The program includes a machine learning model to predict future generation conditions, consumption, and grid load, which are used to calculate energy generation and cost.The predictions were evaluated using data correlating with the simulated data used to train the model, resulting in a mean squared error loss of 1.185x10-3 . Given a period of sample data for a specific household, the program ultimately predicts a pattern of optimal future energy sourcing for a given time, prioritizing renewable sources before resorting to grid energy, purchasing grid electricity during periods of lower cost. Future improvements could include real-time prediction, implementation in a real-life household, or integration with other energy applications such as electric vehicles. This approach promotes energy efficiency, sustainability, and resilience.
